@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>S Q Abdullah Al Mamun | Portfolio</title>
+  <meta name="description" content="Portfolio of S Q Abdullah Al Mamun — ENGL 317 Technical Writing projects: memo reports, technical documentation, infographic, and a technical white paper." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Top Announcement -->
+  <div class="announcement">
+    <div class="container">
+      <span class="badge">ENGL 317</span>
+      <span class="announcement-text">
+        Technical Writing Portfolio • Reports • Documentation • Infographic • Slidecast/Screencasts
+      </span>
+      <button class="ghost-btn" id="themeToggle" aria-label="Toggle theme">🌙</button>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="header" id="top">
+    <div class="container nav">
+      <a class="brand" href="#top">
+        <span class="brand-mark">SQ</span>
+        <span class="brand-text">S Q Abdullah Al Mamun</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact" class="btn btn-sm">Contact</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <p class="kicker">Computer Science Junior • Technical Writing Portfolio</p>
+          <h1>Clear, structured writing for real audiences.</h1>
+          <p class="subhead">
+            This portfolio contains my completed ENGL 317 projects: memo reports, technical documentation,
+            a textual outline with wireframe, an infographic, and a technical white paper with usability testing.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn btn-outline" href="#contact">Contact</a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="meta-card">
+              <div class="meta-title">Email</div>
+              <a class="meta-link" href="mailto:mamu2549@vandals.uidaho.edu">mamu2549@vandals.uidaho.edu</a>
+            </div>
+            <div class="meta-card">
+              <div class="meta-title">Focus</div>
+              <div class="meta-text">Technical writing • Usability • Documentation</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="card hero-card">
+            <div class="card-top">
+              <div>
+                <h2 class="card-title">Portfolio Highlights</h2>
+                <p class="card-subtitle">What each project demonstrates</p>
+              </div>
+              <span class="pill">Fall 2025</span>
+            </div>
+
+            <ul class="checklist">
+              <li>Writing for a specific audience and purpose</li>
+              <li>Clear organization + professional formatting</li>
+              <li>Evidence-based content and sources</li>
+              <li>Usability testing and evaluation criteria</li>
+            </ul>
+
+            <div class="mini-grid">
+              <div class="mini">
+                <div class="mini-num">4</div>
+                <div class="mini-label">Major Projects</div>
+              </div>
+              <div class="mini">
+                <div class="mini-num">Docs</div>
+                <div class="mini-label">PDF Deliverables</div>
+              </div>
+              <div class="mini">
+                <div class="mini-num">Media</div>
+                <div class="mini-label">Podcast/Slidecast</div>
+              </div>
+              <div class="mini">
+                <div class="mini-num">Visuals</div>
+                <div class="mini-label">Infographic</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card disclaimer-card">
+            <div class="card-title">Academic Note</div>
+            <p class="small">
+              All sample work below is my completed coursework deliverables and includes links to the actual files and media.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <h2>About</h2>
+          <p>
+            I’m <strong>S Q Abdullah Al Mamun</strong>, a Computer Science junior completing ENGL 317 (Technical Writing II).
+            My goal in this course was to produce professional communication that is clear, structured, and audience-focused.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <div class="card">
+            <h3>What I produce</h3>
+            <p>
+              Memo reports, technical explanations, structured outlines with planning, and polished final deliverables (PDF + media).
+            </p>
+          </div>
+          <div class="card">
+            <h3>How I write</h3>
+            <p>
+              I use clear headings, direct language, and audience-appropriate tone. I prioritize organization and readability.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Why it matters</h3>
+            <p>
+              Strong technical communication improves usability, reduces confusion, and helps real users make better decisions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section alt" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects (Real Sample Work)</h2>
+          <p>
+            Each project includes: a title, what it is + why it matters, what I produced, and links to the actual files/media.
+          </p>
+        </div>
+
+        <div class="projects-toolbar">
+          <input id="projectSearch" class="input" type="text" placeholder="Search projects (e.g., memo, infographic, usability, documentation)" />
+          <select id="projectFilter" class="select">
+            <option value="all">All</option>
+            <option value="writing">Writing</option>
+            <option value="visual">Visual</option>
+            <option value="video">Video</option>
+            <option value="audio">Audio</option>
+          </select>
+        </div>
+
+        <div class="grid-2" id="projectsGrid">
+          <!-- Project 1 -->
+          <article class="card project" data-tags="writing audio">
+            <div class="project-top">
+              <h3>Project 1 — Memo Report: Writing Self-Analysis</h3>
+              <span class="tag">Memo + Podcast</span>
+            </div>
+
+            <p class="muted">
+              <strong>What it is:</strong> A memo analyzing my earlier essay writing to identify strengths and weaknesses in being
+              concise, precise, and direct. <strong>Why it matters:</strong> It shows reflection and revision skills needed for professional writing.
+            </p>
+
+            <ul class="list">
+              <li><strong>Artifact:</strong> Memo report PDF (actual submission)</li>
+              <li><strong>Focus areas:</strong> repetition, redundant words, dead phrases, unnecessary modifiers, verb strength, sentence clarity</li>
+              <li><strong>Outcome:</strong> Clear improvement plan for future writing (stronger verbs, less filler, shorter sentences)</li>
+            </ul>
+
+            <div class="chips">
+              <span class="chip">Memo format</span>
+              <span class="chip">Revision analysis</span>
+              <span class="chip">Concise writing</span>
+            </div>
+
+            <div class="project-actions">
+              <a class="btn btn-sm btn-outline" href="project1_memo_report.pdf" target="_blank" rel="noreferrer">Open Memo PDF</a>
+              <a class="btn btn-sm" href="https://www.podomatic.com/podcasts/fuadsyed30podcast/episodes/2025-09-09T23_34_39-07_00" target="_blank" rel="noreferrer">Open Podcast</a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="card project" data-tags="writing video">
+            <div class="project-top">
+              <h3>Project 2 — Technical Documentation: Planning + Slidecast</h3>
+              <span class="tag">Documentation</span>
+            </div>
+
+            <p class="muted">
+              <strong>What it is:</strong> A planning memo for an extended technical definition explaining password managers and their types.
+              <strong>Why it matters:</strong> It demonstrates audience-focused communication for non-technical workplace users.
+            </p>
+
+            <ul class="list">
+              <li><strong>Audience:</strong> Small business employees without formal IT support</li>
+              <li><strong>Content:</strong> Classification of password managers (cloud-based, local, browser-based) with pros/cons</li>
+              <li><strong>Outcome:</strong> Helps viewers decide which type fits their workplace needs</li>
+            </ul>
+
+            <div class="chips">
+              <span class="chip">Technical definition</span>
+              <span class="chip">Classification</span>
+              <span class="chip">Pros/Cons</span>
+            </div>
+
+            <div class="project-actions">
+              <a class="btn btn-sm btn-outline" href="project2_technical_definition.pdf" target="_blank" rel="noreferrer">Open PDF</a>
+              <a class="btn btn-sm" href="https://vimeo.com/1124099849?fl=pl&fe=sh" target="_blank" rel="noreferrer">Open Slidecast</a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="card project" data-tags="writing visual video">
+            <div class="project-top">
+              <h3>Project 3 — Textual Outline + Wireframe + Infographic</h3>
+              <span class="tag">Outline + Visual</span>
+            </div>
+
+            <p class="muted">
+              <strong>What it is:</strong> A structured outline and infographic about clean energy job growth in the U.S.
+              <strong>Why it matters:</strong> It shows information design—turning research and statistics into clear visuals for an audience.
+            </p>
+
+            <ul class="list">
+              <li><strong>Topic:</strong> “The Growth of Clean Energy Jobs in the United States”</li>
+              <li><strong>Evidence used:</strong> growth since 2020, employment size, wage examples, projected growth through 2033</li>
+              <li><strong>Outcome:</strong> Communicates key trends using planned visuals (line graph, bar chart, pie chart, isotype, big numbers)</li>
+            </ul>
+
+            <div class="chips">
+              <span class="chip">Information design</span>
+              <span class="chip">Outline planning</span>
+              <span class="chip">Infographic</span>
+            </div>
+
+            <div class="project-actions">
+              <a class="btn btn-sm btn-outline" href="project3_textual_outline_wireframe.pdf" target="_blank" rel="noreferrer">Open Outline PDF</a>
+              <a class="btn btn-sm btn-outline" href="project3_infographic.pdf" target="_blank" rel="noreferrer">Open Infographic</a>
+              <a class="btn btn-sm" href="https://go.screenpal.com/watch/cT601tnbJt1" target="_blank" rel="noreferrer">Open Screencast</a>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="card project" data-tags="writing video">
+            <div class="project-top">
+              <h3>Project 4 — Technical White Paper: Google Maps vs Apple Maps</h3>
+              <span class="tag">Usability Study</span>
+            </div>
+
+            <p class="muted">
+              <strong>What it is:</strong> A usability study comparing Google Maps and Apple Maps using tasks, criteria, and scoring.
+              <strong>Why it matters:</strong> It demonstrates technical reporting with methodology, results, and a reasoned conclusion.
+            </p>
+
+            <ul class="list">
+              <li><strong>Method:</strong> Task-based testing under stable conditions on two devices</li>
+              <li><strong>Criteria:</strong> effectiveness, efficiency, engagement, error tolerance, ease of learning (Likert scale)</li>
+              <li><strong>Outcome:</strong> Google Maps scored higher overall across tasks; Apple Maps noted for cleaner visuals and learning curve</li>
+            </ul>
+
+            <div class="chips">
+              <span class="chip">Methodology</span>
+              <span class="chip">Usability metrics</span>
+              <span class="chip">Results + conclusion</span>
+            </div>
+
+            <div class="project-actions">
+              <a class="btn btn-sm btn-outline" href="project4_technical_white_paper.pdf" target="_blank" rel="noreferrer">Open White Paper PDF</a>
+              <a class="btn btn-sm" href="https://go.screenpal.com/watch/cTX3iDnqYHi" target="_blank" rel="noreferrer">Open Screencast</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills Used in These Projects</h2>
+          <p>What the work demonstrates (aligned with technical writing outcomes).</p>
+        </div>
+
+        <div class="grid-3">
+          <div class="card">
+            <h3>Writing & Structure</h3>
+            <ul class="list">
+              <li>Audience + purpose</li>
+              <li>Clear headings and organization</li>
+              <li>Concise, direct language</li>
+              <li>Professional tone</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Documentation & Media</h3>
+            <ul class="list">
+              <li>Memo formatting</li>
+              <li>Technical definition + classification</li>
+              <li>Slidecast and screencast support</li>
+              <li>File-based deliverables (PDF)</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Usability & Visual Communication</h3>
+            <ul class="list">
+              <li>Task-based evaluation</li>
+              <li>Criteria-based scoring</li>
+              <li>Infographic planning + layout</li>
+              <li>Evidence-driven conclusions</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section class="section alt" id="resume">
+      <div class="container">
+        <div class="section-head">
+          <h2>Resume</h2>
+          <p>
+            The resume is included as a PDF, and I also highlight key information below for quick viewing.
+          </p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Resume Preview</h3>
+            <p class="muted">
+              Embedded preview for visual interest (download still available).
+            </p>
+
+            <div class="pdf-wrap">
+              <iframe
+                class="pdf"
+                src="resume.pdf"
+                title="Resume PDF Preview"
+              ></iframe>
+            </div>
+
+            <div class="project-actions">
+              <a class="btn btn-sm" href="resume.pdf" download>Download Resume</a>
+            </div>
+            <p class="small muted">
+              If the preview does not load in your browser, use the download button.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Quick Context</h3>
+            <ul class="list">
+              <li><strong>Name:</strong> S Q Abdullah Al Mamun</li>
+              <li><strong>Major:</strong> Computer Science (Junior)</li>
+              <li><strong>Coursework sample:</strong> ENGL 317 technical writing projects (this site)</li>
+              <li><strong>Strength:</strong> clear writing + structured deliverables + audience focus</li>
+              <li><strong>Email:</strong> mamu2549@vandals.uidaho.edu</li>
+            </ul>
+
+            <div class="callout">
+              This portfolio intentionally includes direct links to real artifacts, because “sample work” is required by the rubric.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p>Email is the best way to reach me.</p>
+        </div>
+
+        <div class="grid-2">
+          <form class="card form" id="contactForm">
+            <label>
+              Full Name
+              <input class="input" name="name" type="text" placeholder="Your name" required />
+            </label>
+
+            <label>
+              Email
+              <input class="input" name="email" type="email" placeholder="your@email.com" required />
+            </label>
+
+            <label>
+              Message
+              <textarea class="textarea" name="message" placeholder="Write your message..." required></textarea>
+            </label>
+
+            <button class="btn" type="submit">Send Message</button>
+            <p class="small muted" id="formStatus" role="status" aria-live="polite"></p>
+            <p class="small muted">
+              Note: this contact form is a demo unless you connect a form service. Email link below always works.
+            </p>
+          </form>
+
+          <div class="card">
+            <h3>Direct Email</h3>
+            <p class="muted">
+              I do not list a physical address on the portfolio (per instructor instructions).
+            </p>
+            <ul class="list">
+              <li><strong>Email:</strong> <a href="mailto:mamu2549@vandals.uidaho.edu">mamu2549@vandals.uidaho.edu</a></li>
+              <li><strong>GitHub:</strong> <a href="#" target="_blank" rel="noreferrer">Add your GitHub profile link</a></li>
+            </ul>
+
+            <div class="callout">
+              Tip: Add your GitHub link above so your instructor can click your repo easily.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-title">S Q Abdullah Al Mamun</div>
+        <div class="small muted">
+          ENGL 317 • Technical Writing Portfolio
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <a href="#top">Back to top</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="small muted footer-note">
+        © <span id="year"></span> — Portfolio for coursework
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
